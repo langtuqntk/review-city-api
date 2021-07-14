@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "citis",
+  "info": {
+    "name": "Citis"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}
