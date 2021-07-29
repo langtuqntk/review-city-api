@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/imgobjects",
+      "handler": "imgobject.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/imgobjects/count",
+      "handler": "imgobject.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/imgobjects/:id",
+      "handler": "imgobject.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/imgobjects",
+      "handler": "imgobject.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/imgobjects/:id",
+      "handler": "imgobject.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/imgobjects/:id",
+      "handler": "imgobject.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "citis",
+  "collectionName": "blogs",
   "info": {
-    "name": "Citis",
+    "name": "blog",
     "description": ""
   },
   "options": {
@@ -12,23 +12,20 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
+    "title": {
       "type": "string",
       "required": true
-    },
-    "describe": {
-      "type": "text",
-      "required": false
-    },
-    "map": {
-      "type": "string"
     },
     "img": {
       "type": "string"
     },
-    "objects": {
-      "via": "citis",
-      "collection": "objects"
+    "describe": {
+      "type": "text"
+    },
+    "users_permissions_role": {
+      "plugin": "users-permissions",
+      "model": "role",
+      "via": "blogs"
     }
   }
 }

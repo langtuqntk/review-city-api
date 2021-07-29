@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "objects",
   "info": {
-    "name": "Objects"
+    "name": "Objects",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -12,7 +13,30 @@
   "pluginOptions": {},
   "attributes": {
     "name": {
+      "type": "string",
+      "required": true
+    },
+    "map": {
       "type": "string"
+    },
+    "describe": {
+      "type": "text"
+    },
+    "star": {
+      "type": "integer"
+    },
+    "citis": {
+      "collection": "citis",
+      "via": "objects",
+      "dominant": true
+    },
+    "categories": {
+      "via": "objects",
+      "collection": "category"
+    },
+    "imgobjects": {
+      "via": "object",
+      "collection": "imgobject"
     }
   }
 }
