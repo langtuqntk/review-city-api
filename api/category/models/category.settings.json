@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "citis",
+  "collectionName": "categories",
   "info": {
-    "name": "Citis",
-    "description": ""
+    "name": "category"
   },
   "options": {
     "increments": true,
@@ -16,19 +15,10 @@
       "type": "string",
       "required": true
     },
-    "describe": {
-      "type": "text",
-      "required": false
-    },
-    "map": {
-      "type": "string"
-    },
-    "img": {
-      "type": "string"
-    },
     "objects": {
-      "via": "citis",
-      "collection": "objects"
+      "collection": "objects",
+      "via": "categories",
+      "dominant": true
     }
   }
 }

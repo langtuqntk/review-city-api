@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reviews",
+  "info": {
+    "name": "review"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "star": {
+      "type": "decimal"
+    },
+    "describe": {
+      "type": "text"
+    },
+    "img": {
+      "type": "string"
+    },
+    "users_permissions_role": {
+      "plugin": "users-permissions",
+      "model": "role",
+      "via": "reviews"
+    },
+    "comments": {
+      "via": "review",
+      "collection": "comment"
+    }
+  }
+}

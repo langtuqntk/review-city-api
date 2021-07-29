@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "imgobjects",
+  "info": {
+    "name": "imgobject",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "object": {
+      "model": "objects",
+      "via": "imgobjects"
+    }
+  }
+}
