@@ -64,6 +64,18 @@
     },
     "admin": {
       "type": "integer"
+    },
+    "comments": {
+      "via": "users_permissions_user",
+      "collection": "comment"
+    },
+    "blogs": {
+      "via": "users_permissions_user",
+      "collection": "blog"
+    },
+    "reviews": {
+      "via": "users_permissions_user",
+      "collection": "review"
     }
   }
 }

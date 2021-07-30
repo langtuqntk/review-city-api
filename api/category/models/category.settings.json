@@ -16,8 +16,8 @@
       "required": true
     },
     "objects": {
-      "collection": "objects",
       "via": "categories",
+      "collection": "objects",
       "dominant": true
     }
   }

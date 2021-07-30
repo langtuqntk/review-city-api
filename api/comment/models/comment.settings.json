@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "comments",
   "info": {
-    "name": "comment"
+    "name": "comment",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -15,13 +16,13 @@
       "type": "text",
       "required": true
     },
-    "users_permissions_role": {
-      "plugin": "users-permissions",
-      "model": "role",
-      "via": "comments"
-    },
     "review": {
-      "model": "review",
+      "via": "comments",
+      "model": "review"
+    },
+    "users_permissions_user": {
+      "plugin": "users-permissions",
+      "model": "user",
       "via": "comments"
     }
   }

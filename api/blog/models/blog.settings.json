@@ -22,9 +22,9 @@
     "describe": {
       "type": "text"
     },
-    "users_permissions_role": {
+    "users_permissions_user": {
       "plugin": "users-permissions",
-      "model": "role",
+      "model": "user",
       "via": "blogs"
     }
   }
