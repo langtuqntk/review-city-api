@@ -16,8 +16,8 @@
       "type": "string"
     },
     "object": {
-      "model": "objects",
-      "via": "imgobjects"
+      "via": "imgobjects",
+      "model": "objects"
     }
   }
 }

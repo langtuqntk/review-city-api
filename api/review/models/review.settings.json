@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "reviews",
   "info": {
-    "name": "review"
+    "name": "review",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -24,9 +25,9 @@
     "img": {
       "type": "string"
     },
-    "users_permissions_role": {
+    "users_permissions_user": {
       "plugin": "users-permissions",
-      "model": "role",
+      "model": "user",
       "via": "reviews"
     },
     "comments": {
