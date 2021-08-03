@@ -27,7 +27,7 @@
     },
     "categories": {
       "via": "objects",
-      "collection": "category"
+      "model": "category"
     },
     "imgobjects": {
       "via": "object",
