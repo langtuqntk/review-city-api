@@ -596,6 +596,12 @@
               "img": {
                 "type": "string"
               },
+              "objects": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
               "created_by": {
                 "type": "string"
               },

@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "08/03/2021 1:06:37 PM"
+    "x-generation-date": "08/03/2021 7:59:50 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -5933,6 +5933,12 @@
               "img": {
                 "type": "string"
               },
+              "objects": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
               "created_by": {
                 "type": "string"
               },
@@ -6028,6 +6034,9 @@
                   "items": {
                     "type": "string"
                   }
+                },
+                "users_permissions_user": {
+                  "type": "string"
                 },
                 "published_at": {
                   "type": "string"
@@ -6134,6 +6143,9 @@
                   "items": {
                     "type": "string"
                   }
+                },
+                "users_permissions_user": {
+                  "type": "string"
                 },
                 "published_at": {
                   "type": "string"
@@ -6305,6 +6317,12 @@
               "img": {
                 "type": "string"
               },
+              "objects": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
               "created_by": {
                 "type": "string"
               },
@@ -6394,6 +6412,9 @@
                 "items": {
                   "type": "string"
                 }
+              },
+              "users_permissions_user": {
+                "type": "string"
               },
               "published_at": {
                 "type": "string"
@@ -6554,6 +6575,84 @@
               }
             }
           },
+          "users_permissions_user": {
+            "required": [
+              "id",
+              "username",
+              "email"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "username": {
+                "type": "string"
+              },
+              "email": {
+                "type": "string"
+              },
+              "provider": {
+                "type": "string"
+              },
+              "password": {
+                "type": "string"
+              },
+              "resetPasswordToken": {
+                "type": "string"
+              },
+              "confirmationToken": {
+                "type": "string"
+              },
+              "confirmed": {
+                "type": "boolean"
+              },
+              "blocked": {
+                "type": "boolean"
+              },
+              "role": {
+                "type": "string"
+              },
+              "dateofbirth": {
+                "type": "string"
+              },
+              "admin": {
+                "type": "integer"
+              },
+              "comments": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "blogs": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "reviews": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "img": {
+                "type": "string"
+              },
+              "objects": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -6594,6 +6693,9 @@
             "items": {
               "type": "string"
             }
+          },
+          "users_permissions_user": {
+            "type": "string"
           },
           "published_at": {
             "type": "string",
@@ -6691,6 +6793,12 @@
               },
               "img": {
                 "type": "string"
+              },
+              "objects": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
               },
               "created_by": {
                 "type": "string"
@@ -6901,6 +7009,12 @@
                 },
                 "img": {
                   "type": "string"
+                },
+                "objects": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
                 },
                 "created_by": {
                   "type": "string"
@@ -7135,6 +7249,62 @@
           },
           "img": {
             "type": "string"
+          },
+          "objects": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id",
+                "name"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "map": {
+                  "type": "string"
+                },
+                "describe": {
+                  "type": "string"
+                },
+                "star": {
+                  "type": "number"
+                },
+                "citis": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "categories": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "imgobjects": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "users_permissions_user": {
+                  "type": "string"
+                },
+                "published_at": {
+                  "type": "string"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
+                }
+              }
+            }
           }
         }
       },
@@ -7204,6 +7374,12 @@
           },
           "img": {
             "type": "string"
+          },
+          "objects": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
           },
           "created_by": {
             "type": "string"
