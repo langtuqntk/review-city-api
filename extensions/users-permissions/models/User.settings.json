@@ -76,6 +76,9 @@
     "reviews": {
       "via": "users_permissions_user",
       "collection": "review"
+    },
+    "img": {
+      "type": "string"
     }
   }
 }

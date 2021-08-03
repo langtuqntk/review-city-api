@@ -23,9 +23,9 @@
       "type": "text"
     },
     "users_permissions_user": {
+      "via": "blogs",
       "plugin": "users-permissions",
-      "model": "user",
-      "via": "blogs"
+      "model": "user"
     }
   }
 }

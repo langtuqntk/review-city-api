@@ -596,6 +596,9 @@
                   "type": "string"
                 }
               },
+              "img": {
+                "type": "string"
+              },
               "created_by": {
                 "type": "string"
               },
