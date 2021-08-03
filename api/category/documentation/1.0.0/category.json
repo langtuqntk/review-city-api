@@ -549,12 +549,6 @@
                 "star": {
                   "type": "number"
                 },
-                "citis": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                },
                 "categories": {
                   "type": "array",
                   "items": {
@@ -568,6 +562,9 @@
                   }
                 },
                 "users_permissions_user": {
+                  "type": "string"
+                },
+                "citi": {
                   "type": "string"
                 },
                 "published_at": {
