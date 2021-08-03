@@ -535,47 +535,6 @@
           "star": {
             "type": "number"
           },
-          "citis": {
-            "type": "array",
-            "items": {
-              "required": [
-                "id",
-                "name"
-              ],
-              "properties": {
-                "id": {
-                  "type": "string"
-                },
-                "name": {
-                  "type": "string"
-                },
-                "describe": {
-                  "type": "string"
-                },
-                "map": {
-                  "type": "string"
-                },
-                "img": {
-                  "type": "string"
-                },
-                "objects": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                },
-                "published_at": {
-                  "type": "string"
-                },
-                "created_by": {
-                  "type": "string"
-                },
-                "updated_by": {
-                  "type": "string"
-                }
-              }
-            }
-          },
           "categories": {
             "type": "array",
             "items": {
@@ -714,6 +673,44 @@
               }
             }
           },
+          "citi": {
+            "required": [
+              "id",
+              "name"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "describe": {
+                "type": "string"
+              },
+              "map": {
+                "type": "string"
+              },
+              "img": {
+                "type": "string"
+              },
+              "objects": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "published_at": {
+                "type": "string"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -737,12 +734,6 @@
           "star": {
             "type": "number"
           },
-          "citis": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            }
-          },
           "categories": {
             "type": "array",
             "items": {
@@ -756,6 +747,9 @@
             }
           },
           "users_permissions_user": {
+            "type": "string"
+          },
+          "citi": {
             "type": "string"
           },
           "published_at": {

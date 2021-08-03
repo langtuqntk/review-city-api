@@ -25,11 +25,6 @@
     "star": {
       "type": "decimal"
     },
-    "citis": {
-      "collection": "citis",
-      "via": "objects",
-      "dominant": true
-    },
     "categories": {
       "via": "objects",
       "collection": "category"
@@ -42,6 +37,10 @@
       "plugin": "users-permissions",
       "model": "user",
       "via": "objects"
+    },
+    "citi": {
+      "via": "objects",
+      "model": "citis"
     }
   }
 }

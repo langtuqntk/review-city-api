@@ -27,7 +27,7 @@
       "type": "string"
     },
     "objects": {
-      "via": "citis",
+      "via": "citi",
       "collection": "objects"
     }
   }
