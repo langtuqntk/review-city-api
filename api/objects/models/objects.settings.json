@@ -37,6 +37,11 @@
     "imgobjects": {
       "via": "object",
       "collection": "imgobject"
+    },
+    "users_permissions_user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "objects"
     }
   }
 }

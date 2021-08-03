@@ -1371,6 +1371,62 @@
           },
           "img": {
             "type": "string"
+          },
+          "objects": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id",
+                "name"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "map": {
+                  "type": "string"
+                },
+                "describe": {
+                  "type": "string"
+                },
+                "star": {
+                  "type": "number"
+                },
+                "citis": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "categories": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "imgobjects": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "users_permissions_user": {
+                  "type": "string"
+                },
+                "published_at": {
+                  "type": "string"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
+                }
+              }
+            }
           }
         }
       },
@@ -1440,6 +1496,12 @@
           },
           "img": {
             "type": "string"
+          },
+          "objects": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
           },
           "created_by": {
             "type": "string"

@@ -79,6 +79,10 @@
     },
     "img": {
       "type": "string"
+    },
+    "objects": {
+      "via": "users_permissions_user",
+      "collection": "objects"
     }
   }
 }
