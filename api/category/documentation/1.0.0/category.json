@@ -550,10 +550,7 @@
                   "type": "number"
                 },
                 "categories": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
+                  "type": "string"
                 },
                 "imgobjects": {
                   "type": "array",
