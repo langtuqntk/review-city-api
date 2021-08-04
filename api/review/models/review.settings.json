@@ -33,6 +33,10 @@
     "comments": {
       "via": "review",
       "collection": "comment"
+    },
+    "object": {
+      "model": "objects",
+      "via": "reviews"
     }
   }
 }

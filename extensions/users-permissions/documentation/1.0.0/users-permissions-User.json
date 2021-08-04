@@ -1357,6 +1357,9 @@
                     "type": "string"
                   }
                 },
+                "object": {
+                  "type": "string"
+                },
                 "published_at": {
                   "type": "string"
                 },
@@ -1409,6 +1412,12 @@
                 },
                 "citi": {
                   "type": "string"
+                },
+                "reviews": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
                 },
                 "published_at": {
                   "type": "string"

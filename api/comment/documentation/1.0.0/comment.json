@@ -556,6 +556,9 @@
                   "type": "string"
                 }
               },
+              "object": {
+                "type": "string"
+              },
               "published_at": {
                 "type": "string"
               },
