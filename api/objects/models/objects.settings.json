@@ -41,6 +41,10 @@
     "citi": {
       "via": "objects",
       "model": "citis"
+    },
+    "reviews": {
+      "via": "object",
+      "collection": "review"
     }
   }
 }

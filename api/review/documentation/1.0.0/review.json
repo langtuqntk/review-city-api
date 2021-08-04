@@ -645,6 +645,59 @@
               }
             }
           },
+          "object": {
+            "required": [
+              "id",
+              "name"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "map": {
+                "type": "string"
+              },
+              "describe": {
+                "type": "string"
+              },
+              "star": {
+                "type": "number"
+              },
+              "categories": {
+                "type": "string"
+              },
+              "imgobjects": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "users_permissions_user": {
+                "type": "string"
+              },
+              "citi": {
+                "type": "string"
+              },
+              "reviews": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "published_at": {
+                "type": "string"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -676,6 +729,9 @@
             "items": {
               "type": "string"
             }
+          },
+          "object": {
+            "type": "string"
           },
           "published_at": {
             "type": "string",
